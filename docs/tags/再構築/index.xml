@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>再構築 on simple blog</title>
+    <link>/tags/%E5%86%8D%E6%A7%8B%E7%AF%89/</link>
+    <description>Recent content in 再構築 on simple blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 11 Apr 2020 23:25:02 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/%E5%86%8D%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>日本政府のお金の流れを再現したくて</title>
+      <link>/posts/japanese-finance-learn/</link>
+      <pubDate>Sat, 11 Apr 2020 23:25:02 +0900</pubDate>
+      
+      <guid>/posts/japanese-finance-learn/</guid>
+      <description>何がしたい？ 日本政府のお金の流れを全体から眺めることで、財政に対する漠然とした不安を解消できるんじゃないかと思った。
+アプローチ 財務省は国の財務書類を貸借対照表としてまとめている。 日商簿記の勉強したことがあったのでここから攻めようと思う。落ちたんだけどね。
+公債は 900兆円!? 財務省の平成29年度 国の財務書類（一般会計・特別会計）によると、
+参照  財務省HP  </description>
+    </item>
+    
+  </channel>
+</rss>

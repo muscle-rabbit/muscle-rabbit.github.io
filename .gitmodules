@@ -1,0 +1,20 @@
+[submodule "themes/coder"]
+	path = themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "blog/themes/coder"]
+	path = blog/themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "blog/themes/ananke"]
+	path = blog/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "muscle-rabbit.github.io"]
+	path = muscle-rabbit.github.io
+	url = https://github.com/muscle-rabbit/muscle-rabbit.github.io
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/muscle-rabbit/muscle-rabbit.github.io
+	branch = master
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git

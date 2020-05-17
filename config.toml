@@ -1,0 +1,5 @@
+languageCode = "ja-JP"
+title = "simple blog"
+theme = "ananke"
+publishDir = "docs"
+canonifyurls = true 
