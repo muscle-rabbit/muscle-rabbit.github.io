@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*
+ Theme Name:   DAIICHISEIMITSU THEME
+ Theme URI:
+ Description:  DAIICHISEIMITSU THEME
+ Author:
+ Author URI:
+ Version:      1.0.0
+*/
+
+/* WordPress Styles */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+img.alignright {
+  float: right;
+  margin: 0 0 6px 12px;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0 12px 6px 0;
+}
+
+.wp-caption,
+.gallery-caption {
+  width: auto !important;
+  max-width: 100%;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption .wp-caption-text {
+  padding: 6px;
+  text-align: center;
+}
+
+.wp-caption.aligncenter,
+.gallery-caption.aligncenter {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wp-caption.alignleft,
+.gallery-caption.alignleft {
+  float: left;
+  margin: 0 12px 6px 0;
+}
+.wp-caption.alignright,
+.gallery-caption.alignright {
+  float: right;
+  margin: 0 0 6px 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-caption.alignright,
+  .gallery-caption.alignright {
+    max-width: 48%;
+  }
+
+  .wp-caption.alignright,
+  .gallery-caption.alignright {
+    max-width: 48%;
+  }
+}
+
+.youtube-player-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.youtube-player-wrapper > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.youtube-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Arhive Style */
+/* .archiveTitle {
+  margin-bottom: 40px;
+} */
