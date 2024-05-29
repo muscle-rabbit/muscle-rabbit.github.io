@@ -81,7 +81,7 @@
   font-size: 14px;
   letter-spacing: 0.08em;
   line-height: 14px;
-  color: #0b275c;
+  color: #000;
 }
 @media only screen and (max-width:768px) {
   .fixedContents .cookieTitle {
@@ -120,7 +120,7 @@
 }
 .fixedContents .cookieButton {
   width: 119px;
-  background: #0B275C;
+  background: #000;
   border-radius: 4px;
   font-weight: bold;
   font-size: 12px;
@@ -183,7 +183,7 @@
 }
 .formAgreement .mwform-checkbox-field-text::before {
   background: #fff;
-  border: 2px solid #0B275C;
+  border: 2px solid #000;
   border-radius: 100px;
   content: "";
   display: block;
@@ -197,7 +197,7 @@
 .formAgreement .mwform-checkbox-field-text::after {
   content: "";
   display: block;
-  background: #0B275C;
+  background: #000;
   border-radius: 100px;
   width: 10px;
   height: 10px;
@@ -495,7 +495,7 @@
   left: 50%;
   transform: translateX(-50%);
   border-radius: 100px;
-  background: #0b275c;
+  background: #000;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -512,7 +512,7 @@
   letter-spacing: 0.1em;
   line-height: 16px;
   text-align: center;
-  color: #0b275c;
+  color: #000;
 }
 #lp .lpProblem .lpProblemReasonListText {
   margin-top: 17px;
@@ -613,7 +613,7 @@
 }
 #lp .lpSolution .lpSolutionListItem .lpSolutionListTag .tag1,
 #lp .lpSolution .lpSolutionListItem .lpSolutionListTag .tag2 {
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -631,7 +631,7 @@
   display: block;
   width: 40px;
   height: 1px;
-  background: #0b275c;
+  background: #000;
   position: absolute;
   top: 50%;
   left: 20px;
@@ -818,7 +818,7 @@
   bottom: -15px;
   left: 32px;
   border-radius: 100px;
-  background: #0b275c;
+  background: #000;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -845,7 +845,7 @@
   letter-spacing: 0.1em;
   line-height: 16px;
   text-align: center;
-  color: #0b275c;
+  color: #000;
 }
 @media only screen and (max-width:768px) {
   #lp .lpCase .lpCaseListTitle {
@@ -954,7 +954,7 @@
   letter-spacing: 0.12em;
   line-height: 14px;
   text-align: center;
-  color: #0b275c;
+  color: #000;
 }
 #lp .lpFlow .lpFlowSlider .lpFlowSliderImage {
   margin-top: 12px;
@@ -969,7 +969,7 @@
   letter-spacing: 0.1em;
   line-height: 16px;
   text-align: center;
-  color: #0b275c;
+  color: #000;
 }
 #lp .lpFlow .lpFlowSlider .lpFlowSliderText {
   margin-top: 15px;
@@ -1106,7 +1106,7 @@
   }
 }
 #download .downloadSuccess .heading1Text2 {
-  color: #0b275c;
+  color: #000;
 }
 #download .downloadSuccess .secDownloadBox1Btn {
   margin: 80px 0 0;

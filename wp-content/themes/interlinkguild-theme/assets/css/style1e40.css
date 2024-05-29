@@ -633,7 +633,7 @@ img {
 }
 .l-breadcrumb .breadcrumbItem {
   position: relative;
-  color: #0b275c;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -706,7 +706,7 @@ img {
   }
 }
 .l-step .stepListItem.-active .stepListText {
-  color: #0b275c;
+  color: #000;
 }
 .l-step .stepListIcon,
 .l-step .stepListText {
@@ -734,7 +734,7 @@ img {
 }
 .l-step .stepListIcon::after {
   content: "";
-  background: #0b275c;
+  background: #000;
   width: 11px;
   height: 11px;
   display: block;
@@ -793,7 +793,7 @@ img {
 .l-btnLogo .btnLogoCircle {
   width: 68px;
   height: 68px;
-  border: 1px solid #133477;
+  border: 1px solid #000;
   display: block;
   border-radius: 50%;
 }
@@ -803,13 +803,13 @@ img {
   height: 1px;
   left: 0;
   top: 50%;
-  background: #133477;
+  background: #000;
 }
 .l-btnLogo .btnLogoArrow::after {
   content: "";
   width: 12px;
   height: 1px;
-  background: #133477;
+  background: #000;
   display: block;
   position: absolute;
   right: 0;
@@ -982,7 +982,7 @@ img {
   letter-spacing: 0.12em;
   font-weight: 600;
   display: block;
-  color: #0b275c;
+  color: #000;
   margin-right: 5px;
 }
 .l-pageBottomLink .pageBottomLinkText .text2 {
@@ -1096,7 +1096,7 @@ img {
   padding-left: 25px;
 }
 .l-interview .list .text1 {
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -1115,7 +1115,7 @@ img {
   padding: 0 15px 0 40px;
 }
 .l-interview .textWrap .post {
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.24em;
@@ -1443,7 +1443,7 @@ img {
   letter-spacing: 0.2em;
   line-height: 1;
   margin-bottom: 12px;
-  color: #0b275c;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   #header .headerLead1 {
@@ -1536,7 +1536,7 @@ img {
 }
 #header .gmenu > li a {
   font-weight: 600;
-  color: #0b275c;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   #header .gmenu > li a {
@@ -1620,7 +1620,7 @@ img {
   right: 0;
   width: 24px;
   height: 2px;
-  background: #0b275c;
+  background: #000;
   border-radius: 4px;
 }
 #header .spBtn .bar:nth-child(1) {
@@ -1698,7 +1698,11 @@ img {
   display: none;
 }
 
-#top .topMvLogo {
+.topMvLogo > a > img{
+  width: 300px;
+}
+
+.topMvLogo {
   display: block;
   position: absolute;
   top: 49px;
@@ -1706,7 +1710,7 @@ img {
   z-index: 3;
 }
 @media only screen and (max-width:768px) {
-  #top .topMvLogo {
+  .topMvLogo {
     display: none;
   }
 }
@@ -2048,7 +2052,7 @@ img {
   }
 }
 #footer .footerBottom {
-  background: #0b275c;
+  background: #000;
   padding: 40px 0 24px;
   color: #fff;
   text-align: center;
@@ -2070,7 +2074,7 @@ img {
 #footer .footerBottomLogo {
   text-align: center;
   margin: 16px auto 0;
-  width: 132px;
+  width: 264px;
 }
 @media screen and (max-width: 768px) {
   #footer .footerBottomLogo {
@@ -2948,7 +2952,7 @@ img {
 .b-btn1 .btn1Text {
   font-size: 16px;
   font-weight: 600;
-  color: #0b275c;
+  color: #000;
   display: block;
   line-height: 1;
   margin-right: 24px;
@@ -2979,10 +2983,10 @@ img {
   padding: 20px;
   font-size: 14px;
   letter-spacing: 0.08em;
-  background: #0b275c;
+  background: #000;
   text-align: center;
   color: #fff;
-  border: 1px solid #0b275c;
+  border: 1px solid #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -2992,17 +2996,17 @@ img {
   }
 }
 .b-btn2:hover {
-  color: #0b275c;
+  color: #000;
   background: #fff;
   opacity: 1;
 }
 .b-btn2:hover.-white {
   color: #fff;
-  background: #0b275c;
+  background: #000;
 }
 .b-btn2.-white {
   background: #fff;
-  color: #0b275c;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   .b-entryBtn {
@@ -3214,7 +3218,7 @@ img {
 .b-form .formSelect:focus,
 .b-form .formInputText:focus,
 .b-form .formTextArea:focus {
-  border-color: #0b275c;
+  border-color: #000;
 }
 .b-form .formSelect {
   position: relative;
@@ -3294,7 +3298,7 @@ img {
 .b-form .formSubmit {
   padding: 20px;
   letter-spacing: 0.08em;
-  border: 1px solid #0b275c;
+  border: 1px solid #000;
 }
 @media screen and (max-width: 768px) {
   .b-form .formSubmit {
@@ -3464,7 +3468,7 @@ img {
 .b-paging .pagingItem .num.-active,
 .b-paging .pagingItem .num:hover {
   opacity: 1;
-  color: #0b275c;
+  color: #000;
 }
 .b-slider1 .swiper-slide-active .slider1Image,
 .b-slider1 .swiper-slide-duplicate-active .slider1Image,
@@ -3619,7 +3623,7 @@ img {
 .b-table2 tr th {
   vertical-align: top;
   width: 49%;
-  color: #0b275c;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   .b-table2 tr th {
@@ -3645,7 +3649,7 @@ mark {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.12em;
-  color: #0b275c;
+  color: #000;
   display: block;
 }
 .b-heading1 .heading1Text2 {
@@ -3664,7 +3668,7 @@ mark {
 }
 .b-heading2 {
   font-weight: 500;
-  color: #0b275c;
+  color: #000;
 }
 .b-heading2 .heading2Text1 {
   font-size: 80px;
@@ -3864,7 +3868,7 @@ mark {
   top: -1px;
 }
 #top .topMvNews {
-  background: #0b275c;
+  background: #000;
   padding: 24px 0;
   position: relative;
   z-index: 2;
@@ -4010,7 +4014,7 @@ mark {
   position: absolute;
   top: 0;
   left: 94px;
-  color: #0b275c;
+  color: #000;
   white-space: nowrap;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -4104,7 +4108,7 @@ mark {
 }
 #top .topProductsText2 {
   margin: 16px 0 0;
-  color: #0b275c;
+  color: #000;
   white-space: nowrap;
 }
 @media screen and (max-width: 768px) {
@@ -4275,7 +4279,7 @@ mark {
   border-bottom: 1px solid #ededed;
 }
 #top .topProductsLinkListItem a {
-  color: #0b275c;
+  color: #000;
   font-weight: bold;
   display: block;
   position: relative;
@@ -4292,8 +4296,8 @@ mark {
   display: block;
   width: 5px;
   height: 5px;
-  border-top: 1px solid #0b275c;
-  border-right: 1px solid #0b275c;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
@@ -4367,7 +4371,7 @@ mark {
   }
 }
 #top .topEquipmentBoxText2 {
-  color: #0b275c;
+  color: #000;
 }
 #top .topEquipmentImage img {
   width: 640px;
@@ -4432,7 +4436,7 @@ mark {
 }
 
 body.-scrolled #top #header .gmenu a {
-  color: #0b275c;
+  color: #000;
 }
 #company .companyTableWrap1 {
   margin: 80px 0 0;
@@ -4472,7 +4476,7 @@ body.-scrolled #top #header .gmenu a {
 }
 #company .secMap .text1En {
   display: block;
-  color: #0b275c;
+  color: #000;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4546,7 +4550,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #about .secMessage .secMessageTitle {
-  color: #0b275c;
+  color: #000;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4576,7 +4580,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #about .secMessage .messageImg .caption {
-  color: #0b275c;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4596,9 +4600,8 @@ body.-scrolled #top #header .gmenu a {
   display: block;
 }
 #about .secMessage .messageInner {
-  width: 100%;
-  padding-left: 40%;
-  position: relative;
+  max-width: 588px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   #about .secMessage .messageInner {
@@ -4636,7 +4639,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #about .secMessage .messageInner .name {
-  color: #0b275c;
+  color: #000;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.28em;
@@ -4692,7 +4695,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #about .secVision .visionText {
-  color: #0b275c;
+  color: #000;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4752,7 +4755,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #about .secStrength .strengthText2 {
-  color: #0b275c;
+  color: #000;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4901,7 +4904,7 @@ body.-scrolled #top #header .gmenu a {
 }
 #about .secStrength .strengthListTag .tag1,
 #about .secStrength .strengthListTag .tag2 {
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -4919,7 +4922,7 @@ body.-scrolled #top #header .gmenu a {
   display: block;
   width: 40px;
   height: 1px;
-  background: #0b275c;
+  background: #000;
   position: absolute;
   top: 50%;
   left: 20px;
@@ -5214,7 +5217,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #equipments .secEquipments .equipmentsList .textWrap .textEn {
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -5475,15 +5478,15 @@ body.-scrolled #top #header .gmenu a {
 }
 #recruit .secRecruitment .tabListWrap .tab:hover .text,
 #recruit .secRecruitment .tabListWrap .tab.-active .text {
-  color: #0b275c;
+  color: #000;
 }
 #recruit .secRecruitment .tabListWrap .tab:hover .tabIcon,
 #recruit .secRecruitment .tabListWrap .tab.-active .tabIcon {
-  border-color: #0b275c;
+  border-color: #000;
 }
 #recruit .secRecruitment .tabListWrap .tab:hover .tabIcon::after,
 #recruit .secRecruitment .tabListWrap .tab.-active .tabIcon::after {
-  border-color: #0b275c;
+  border-color: #000;
 }
 #recruit .secRecruitment .tabListWrap .text {
   color: #b9b9b9;
@@ -5533,7 +5536,7 @@ body.-scrolled #top #header .gmenu a {
   animation: commonFadeIn 0.4s forwards;
 }
 #recruit .secRecruitment .recruitmentTabWrap .tabTitle {
-  color: #0b275c;
+  color: #000;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.28em;
@@ -5628,12 +5631,12 @@ body.-scrolled #top #header .gmenu a {
 }
 #interview .interviewArticleHeaderInner .heading .headingTextEn {
   font-size: 14px;
-  color: #0b275c;
+  color: #000;
   font-weight: 600;
   letter-spacing: 0.2em;
 }
 #interview .interviewArticleHeaderInner .post {
-  color: #0b275c;
+  color: #000;
   font-weight: 500;
   letter-spacing: 0.24em;
   line-height: 2.3;
@@ -5673,7 +5676,7 @@ body.-scrolled #top #header .gmenu a {
 }
 #interview .interviewArticleContent .boxTitle .number {
   display: block;
-  color: #0b275c;
+  color: #000;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -5819,7 +5822,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #interview .title {
-  color: #0b275c;
+  color: #000;
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -5867,7 +5870,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #interview .left .textWrap .post {
-  color: #0b275c;
+  color: #000;
   font-weight: 500;
   letter-spacing: 0.24em;
 }
@@ -5926,7 +5929,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #interview .right .time {
-  color: #0b275c;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -5965,7 +5968,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #interview .right .text1 {
-  color: #0b275c;
+  color: #000;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.24em;
@@ -6304,7 +6307,7 @@ body.-scrolled #top #header .gmenu a {
 }
 #data .dataHeading1 .headingText1 {
   display: block;
-  color: #0b275c;
+  color: #000;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -6374,7 +6377,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #data .dataTitle {
-  color: #0b275c;
+  color: #000;
   font-size: 24px;
   letter-spacing: 0.24em;
   line-height: 1.333333333333333;
@@ -6457,7 +6460,7 @@ body.-scrolled #top #header .gmenu a {
   }
 }
 #data .dataList .item.-active .graph {
-  background: #0b275c;
+  background: #000;
 }
 @media screen and (max-width: 768px) {
   #data .dataList .item.-active .value {
@@ -6469,7 +6472,7 @@ body.-scrolled #top #header .gmenu a {
   -webkit-order: 3;
   -ms-flex-order: 3;
   order: 3;
-  color: #0b275c;
+  color: #000;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.12em;
@@ -6709,7 +6712,7 @@ body.-scrolled #top #header .gmenu a {
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
-  color: #0b275c;
+  color: #000;
   font-size: 12px;
   letter-spacing: 0.04em;
   font-weight: bold;
