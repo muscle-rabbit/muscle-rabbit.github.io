@@ -34,54 +34,6 @@
     <link rel="stylesheet" href="stylesheet/lp.css" />
     <link rel="stylesheet" type="text/css" href="../../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.css" />
 
-    <!--初期表示と追加表示を分ける-->
-    <script>
-        window.onload = function () {
-            // 初期表示時に外部のHTMLを取得して表示
-            fetch('contents.html')
-                .then(response => response.text())
-                .then(html => {
-                    // 取得したHTMLを適切な要素に追加
-                    document.getElementById('additionalContent').innerHTML = html;
-
-                    // 初期表示が完了してから追加部分の表示処理を遅らせる
-                    setTimeout(function () {
-                        handleVisibility(document.getElementById('additionalContent'));
-                    }, 100); // 100ミリ秒 (0.1秒) 遅らせる例
-                })
-                .catch(error => console.error('Error fetching external content:', error));
-
-            // 初期表示時にもう一つの外部のHTMLを取得して表示
-            fetch('contents2.html')
-                .then(response => response.text())
-                .then(html => {
-                    // 取得したHTMLを適切な要素に追加
-                    document.getElementById('additionalContent2').innerHTML = html;
-
-                    // 初期表示が完了してから追加部分の表示処理を遅らせる
-                    setTimeout(function () {
-                        handleVisibility(document.getElementById('additionalContent2'));
-                    }, 100); // 100ミリ秒 (0.1秒) 遅らせる例
-                })
-                .catch(error => console.error('Error fetching external content:', error));
-        };
-
-        // 外部HTMLを表示するための関数
-        function handleVisibility(element) {
-            var elements = element.querySelectorAll('.hidden');
-            elements.forEach(function (el) {
-                el.classList.add('visible');
-                el.classList.remove('hidden');
-            });
-        }
-    </script>
-    <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self';
-    script-src 'self' https://www.googletagmanager.com https://code.jquery.com 'unsafe-inline';
-    style-src 'self' 'unsafe-inline' https://unpkg.com;
-    font-src 'self';
-    connect-src 'self' https://docs.google.com/ ;
-">
 </head>
 
 <body>
@@ -125,11 +77,11 @@
                         <a class="btn__link bgleft" href="#form"><span>売却・譲渡のご相談</span></a>
                     </li>
                     <li class="btn__tel">
-                        <a class="tel__link bgleft bgleft2" href="tel:0120077220">
+                        <a class="tel__link bgleft bgleft2" href="tel:0300000000">
                             <p class="btn__telText">お電話でのご相談はこちら</p>
                             <div class="bgleft2_wrap">
                                 <img src="image/tel_arrow_off.png" class="bgleft2__img">
-                                <p class=" btn__telNumber">0120-077-220</p>
+                                <p class=" btn__telNumber">03-0000-0000</p>
                             </div>
                         </a>
                     </li>
@@ -212,8 +164,8 @@
                             <img src="image/features2.jpg">
                         </div>
                         <h3 class="featuresCard__txt">
-                            事業売却経験のある<br>
-                            代表及びセールスのプロが伴走
+                            事業売却経験のある代表<br>
+                            及びセールスのプロが伴走
                         </h3>
                     </div>
                 </li>
@@ -292,7 +244,7 @@
             </h2>
             <div class="contact__content">
                 <p class="contact__txt">
-                    業種ごとの成約事例やご相談など、<br class="sp-br">具体的なご提案も差し上げております。<br>
+                    業種ごとのご相談など、<br class="sp-br">具体的なご提案も差し上げております。<br>
                     無料ですので、ぜひお気軽にお問い合わせください。
                 </p>
                 <ul class="btn contact__btn">
@@ -643,8 +595,9 @@
             <h3 class="formMail__ttl form__subTtl">メールでのお問い合わせ</h3>
             <div class="formMail__content">
                 <div class="wpcf7">
+                    <iframe src="https://docs.google.com/forms/d/1SGzFyEnQC3wNnXo3vhFvZLN5DTQQpz8dvpmM8EMfLM0/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 
-                    <form id="contactForm">
+                    <!-- <form id="contactForm">
 
                         <div id="inputPage">
 
@@ -726,11 +679,9 @@
                             </p>
                         </div>
 
-                        <!-- 確認画面 -->
 
                         <div id="confirmation" style="display: none;">
 
-                            <!-- 確認内容を表示するための要素 -->
 
                             <dl class="formMail__list">
                                 <dt class="formMail__team">ご相談内容</dt>
@@ -757,7 +708,6 @@
                                 <dd class="formMail__desc"><span id="confirmedRemarks"></span></dd>
                             </dl>
 
-                            <!-- 他の確認内容の要素を追加 -->
                             <p class="btn_contact7">
                                 <button type="button" id="editButton">修正</button>
                                 <button type="button" id="submitButton">送信</button>
@@ -765,7 +715,7 @@
 
                         </div>
 
-                    </form>
+                    </form> -->
 
                 </div>
 
@@ -774,129 +724,7 @@
         </div>
 
     </div>
-
-    <!--contents2.htmlの表示部分-->
-    <div id="additionalContent2"></div>
-
-    <!-- jQuery -->
-    <script src="../../code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            // 確認ボタンがクリックされたときの処理
-            $("#confirmButton").click(function () {
-                // 入力内容を取得
-                var content = $("input[name='content']:checked").val();
-                var yourcompany = $("#yourcompany").val();
-                var yourname = $("#yourname").val();
-                var email = $("#email").val();
-                var phonenum = $("#phonenum").val() || "";
-                var remarks = $("#remarks").val() || "";
-                // 他の入力フィールドも同様に取得
-
-                // 必須項目の入力チェック
-                if (!content || !yourcompany || !yourname || !email) {
-                    alert("必須項目が入力されていません。");
-                    return; // 入力が不完全なら処理を中断
-                }
-
-                // 入力画面を非表示にし、確認画面を表示
-                $("#inputPage").hide();
-                $("#confirmation").show();
-
-                // 確認画面に入力内容を表示
-                $("#confirmedContent").text(content);
-                $("#confirmedYourcompany").text(yourcompany);
-                $("#confirmedYourname").text(yourname);
-                $("#confirmedEmail").text(email);
-                $("#confirmedPhonenum").text(phonenum);
-                $("#confirmedRemarks").text(remarks);
-                // 他の確認内容の要素にも入力内容を表示
-            });
-
-            // 修正ボタンがクリックされたときの処理
-            $("#editButton").click(function () {
-                // 入力画面を表示し、確認画面を非表示
-                $("#inputPage").show();
-                $("#confirmation").hide();
-            });
-
-            // 送信ボタンがクリックされたときの処理
-            $("#submitButton").click(function () {
-                // Googleフォームへのデータ送信
-                var formData = {
-                    "entry.751922015": $("input[name='content']:checked").val(),
-                    "entry.64594145": $("#yourcompany").val(),
-                    "entry.2103674129": $("#yourname").val(),
-                    "entry.564496287": $("#email").val(),
-                    "entry.1863294360": $("#phonenum").val() || "",
-                    "entry.1129436297": $("#remarks").val() || "",
-                    // 他のフォームエントリーも追加
-                };
-
-                // formDataの中身をコンソールに表示
-                console.log(formData);
-
-                $.ajax({
-                    url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScUkycMl47xMYFnhel0fpy2LxCd2zZJOovveAjb5NdWGEG-mQ/formResponse", // GoogleフォームのURL
-                    data: formData,
-                    type: "POST",
-                    dataType: "xml",
-                    statusCode: {
-                        0: function () {
-                            // 送信成功時の処理
-
-                            window.location.href = "../thanks.html"; // サンクスページに遷移
-
-                        },
-
-                        200: function () {
-                            // 送信成功時の処理
-
-                            window.location.href = "../thanks.html"; // サンクスページに遷移
-
-                        },
-
-                        // その他のステータスコードに対する処理を追加
-                    }
-                });
-            });
-        });
-    </script>
-
-    <script>
-        // JavaScriptを追加
-        window.addEventListener("scroll", function () {
-            var fixedElement = document.getElementById("form_link");
-            var visibleElements = document.querySelectorAll(".visible-element");
-
-            var isHidden = true;
-
-            // いずれかの表示要素が画面内に表示されているか確認
-            visibleElements.forEach(function (element) {
-                var rect = element.getBoundingClientRect();
-                if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-                    isHidden = false;
-                }
-            });
-
-            // いずれかの表示要素が画面内に表示されている場合は固定要素を非表示にする
-            if (isHidden) {
-                fixedElement.classList.add("visible");
-            } else {
-                fixedElement.classList.remove("visible");
-            }
-        });
-
-
-    </script>
-
-
 </body>
 
-
-<!-- Mirrored from www.interlink-guild.co.jp/lp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 May 2024 13:26:54 GMT -->
 
 </html>

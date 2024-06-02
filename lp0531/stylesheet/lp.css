@@ -751,7 +751,7 @@ mv
 }
 
 .mv__inner img:first-child {
-  margin: 0 0 10px 0;
+  margin: 12px 0 10px 0;
   height: ;
   width: ;
   position: ;
@@ -1902,7 +1902,7 @@ faq
   display: flex;
 }
 
-.faq__btn span::before,
+/* .faq__btn span::before,
 .faq__btn span::after {
   content: '';
   display: block;
@@ -1914,7 +1914,7 @@ faq
   right: 37px;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
 .faq__btn span::after {
   background: #3B4043;
