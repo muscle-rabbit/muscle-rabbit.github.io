@@ -897,7 +897,7 @@ lead
   display: flex;
   justify-content: space-between;
   padding: 4rem 2vw 0;
-  background-color: #F4FAFF;
+  background-color: #797979;
 }
 
 .section__ttl {
@@ -925,7 +925,9 @@ lead
 
 .lead__ttl {
   padding-top: 8rem;
-  background-color: #F4FAFF;
+  /* background-color: #F4FAFF; */
+  background-color: #797979;
+  color: #fff;
 }
 
 .lead__txt {
@@ -963,7 +965,8 @@ lead
   text-align: center;
   padding-top: 4.2rem;
   position: relative;
-  background-color: #F4FAFF;
+  background-color: #797979;
+  color: #fff;
   letter-spacing: .1em;
 }
 
@@ -973,7 +976,7 @@ lead
   top: 100%;
   border-right: 50vw solid transparent;
   border-left: 50vw solid transparent;
-  border-top: 100px solid #F4FAFF;
+  border-top: 100px solid #797979;
   left: 0;
 }
 
@@ -1865,7 +1868,7 @@ faq
 
 .faq {
   background-color: #F4FAFF;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   padding: 0 4vw 8rem;
 }
 
@@ -2388,6 +2391,10 @@ small.css
 
   .mv__inner {
     padding: 10rem 4vw 10rem;
+  }
+
+  .cta__inner {
+    padding: 0rem 4vw 0rem;
   }
 
   .mv__txt {
