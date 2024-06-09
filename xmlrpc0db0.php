@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://dpm.co.jp</homePageLink>
+		<homePageLink>https://interlink-guild.co.jp</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://dpm.co.jp/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://dpm.co.jp/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://dpm.co.jp/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://dpm.co.jp/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://dpm.co.jp/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://interlink-guild.co.jp/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://interlink-guild.co.jp/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://interlink-guild.co.jp/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://interlink-guild.co.jp/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://interlink-guild.co.jp/wp-json/" />
 			</apis>
 	</service>
 </rsd>

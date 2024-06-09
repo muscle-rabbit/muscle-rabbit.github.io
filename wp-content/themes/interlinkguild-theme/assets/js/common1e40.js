@@ -300,7 +300,7 @@
     /**
      * フォームのプライバシーポリシーにリンク設定
      */
-    $('.js-agreement .mwform-checkbox-field-text').html('<a href="https://dpm.co.jp/privacy-policy/" target="_blank" class="contactForm__link">個人情報保護方針</a>について同意する');
+    $('.js-agreement .mwform-checkbox-field-text').html('<a href="https://interlink-guild.co.jp/privacy-policy/" target="_blank" class="contactForm__link">個人情報保護方針</a>について同意する');
 
     /**
      * iPhone時のメニューの高さを調整
