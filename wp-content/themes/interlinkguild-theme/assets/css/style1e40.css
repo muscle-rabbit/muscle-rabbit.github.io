@@ -5356,7 +5356,7 @@ body.-scrolled #top #header .gmenu a {
   padding: 130px 0 0;
 }
 #recruit .secInterview {
-  padding: 180px 0 0;
+  /* padding: 180px 0 0; */
   position: relative;
 }
 @media screen and (max-width: 768px) {
