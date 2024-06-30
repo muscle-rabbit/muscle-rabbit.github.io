@@ -521,7 +521,7 @@ header
 }
 
 .header__item a:hover {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 .header__item a::after {
@@ -530,7 +530,7 @@ header
   left: 0%;
   width: 100%;
   height: 2px;
-  background: #24759A;
+  background: #0F4C81;
   transition: all .3s;
   transform: scale(0, 1);
   transform-origin: center top;
@@ -542,8 +542,8 @@ header
 }
 
 .header__tel {
-  background-color: #F4FAFF;
-  color: #24759A;
+  background-color: #C8DEF2;
+  color: #0F4C81;
   height: 9rem;
   width: 247px;
 }
@@ -574,7 +574,7 @@ header
 
 .header__link {
   color: #FFF;
-  background-color: #24759A;
+  background-color: #0F4C81;
   font-size: 1.6rem;
   padding: 3.3rem 2.4rem;
   font-weight: bold;
@@ -655,12 +655,12 @@ header
 .bgleft3:before,
 .bgleft4:before,
 .bgleft5:before {
-  background-color: #24759A;
+  background-color: #0F4C81;
 }
 
 .bgleft2,
 .bgleft1 {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 .bgleft2:hover,
@@ -815,7 +815,7 @@ mv
 
 .btn__link,
 .tel__link {
-  background-color: #24759A;
+  background-color: #0F4C81;
   font-size: 2rem;
   width: 380px;
   text-align: center;
@@ -829,7 +829,7 @@ mv
 
 
 .tel__link {
-  background-color: #F4FAFF;
+  background-color: #C8DEF2;
 }
 
 .btn__link,
@@ -861,8 +861,8 @@ mv
 }
 
 .btn__tel {
-  background-color: #F4FAFF;
-  color: #24759A;
+  background-color: #C8DEF2;
+  color: #0F4C81;
   height: 9rem;
 }
 
@@ -908,7 +908,7 @@ lead
 
 .section__ttl span {
   font-size: 2rem;
-  color: #24759A;
+  color: #0F4C81;
   padding: 8rem 0 2.2rem;
   display: block;
 }
@@ -920,12 +920,12 @@ lead
   width: 48px;
   height: 1px;
   border-radius: 2px;
-  background-color: #24759A;
+  background-color: #0F4C81;
 }
 
 .lead__ttl {
   padding-top: 8rem;
-  /* background-color: #F4FAFF; */
+  /* background-color: #C8DEF2; */
   background-color: #797979;
   color: #fff;
 }
@@ -943,7 +943,7 @@ lead
 .dot-txt {
   font-family: 'Noto Serif JP', serif;
   position: relative;
-  color: #24759A;
+  color: #0F4C81;
   font-size: 2.4rem;
 }
 
@@ -955,7 +955,7 @@ lead
   margin: auto;
   content: "";
   padding-top: 4px;
-  background: radial-gradient(circle 4px, #24759A 50%, transparent 50%);
+  background: radial-gradient(circle 4px, #0F4C81 50%, transparent 50%);
 }
 
 .lead__ttl2 {
@@ -988,7 +988,7 @@ lead
 
 .recommend {
   font-family: 'Noto Serif JP', serif;
-  background: linear-gradient(to right, #24759A, #019FD8);
+  background: linear-gradient(to right, #0F4C81, #019FD8);
   padding: 12rem 2vw 8rem;
 }
 
@@ -1009,7 +1009,7 @@ lead
   font-family: 'Crimson Pro', serif;
   display: block;
   font-size: 2rem;
-  color: #24759A;
+  color: #0F4C81;
   margin-bottom: 2rem;
 }
 
@@ -1020,7 +1020,7 @@ lead
   width: 48px;
   height: 1px;
   border-radius: 2px;
-  background-color: #24759A;
+  background-color: #0F4C81;
 }
 
 
@@ -1066,7 +1066,7 @@ features
 .featuresCard__ttl {
   font-family: 'Crimson Pro', serif;
   font-size: 2.2rem;
-  background: linear-gradient(to right, #24759A, #019FD8);
+  background: linear-gradient(to right, #0F4C81, #019FD8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
@@ -1091,7 +1091,7 @@ features
 
 .featuresCard__content {
   font-family: 'Noto Serif JP', serif;
-  background-color: #F4FAFF;
+  background-color: #C8DEF2;
   padding: 3.2rem 0 2.9rem;
   line-height: 1.45;
 }
@@ -1110,14 +1110,14 @@ reasons
 --------------------------------*/
 
 .reasons {
-  background-color: #F4FAFF;
+  background-color: #C8DEF2;
   padding: 0 4vw 8rem;
 }
 
 .reasonsCard__ttl {
   font-family: 'Crimson Pro', serif;
   font-size: 2rem;
-  background: linear-gradient(to right, #24759A, #019FD8);
+  background: linear-gradient(to right, #0F4C81, #019FD8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
@@ -1174,7 +1174,7 @@ reasons
   position: absolute;
   content: " ";
   display: block;
-  border-bottom: solid 1px #24759A;
+  border-bottom: solid 1px #0F4C81;
   bottom: -1px;
   width: 6%;
 }
@@ -1188,8 +1188,8 @@ reasons
 .reasonsCard__link {
   font-size: 1.4rem;
   font-family: 'Noto Sans JP', sans-serif;
-  color: #24759A;
-  border-bottom: 1px solid #24759A;
+  color: #0F4C81;
+  border-bottom: 1px solid #0F4C81;
   margin-top: 1rem;
   display: inline-block;
   transition: .3s;
@@ -1253,7 +1253,7 @@ case
 }
 
 .case__table:nth-child(2n) .case__caption {
-  background-color: #24759A;
+  background-color: #0F4C81;
 }
 
 .case__table:nth-child(2n-1) {
@@ -1321,8 +1321,8 @@ achievement
 
 
 .btn__more {
-  background-color: #F4FAFF;
-  color: #24759A;
+  background-color: #C8DEF2;
+  color: #0F4C81;
   font-size: 1.6rem;
   width: 320px;
   text-align: center;
@@ -1370,9 +1370,9 @@ achievement
 contact
 --------------------------------*/
 .contact {
-  background: linear-gradient(to right, #24759A, #019FD8);
+  background: linear-gradient(to right, #0F4C81, #019FD8);
   color: #FFF;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
 }
 
 .contact__ttl span {
@@ -1400,7 +1400,7 @@ contact
 
 .btn__linkContact {
   background-color: #FFF;
-  color: #24759A;
+  color: #0F4C81;
   font-size: 1.6rem;
   padding: 2.5rem 0;
 }
@@ -1480,9 +1480,9 @@ fee
 
 .fee__item {
   font-size: 1.6rem;
-  color: #24759A;
+  color: #0F4C81;
   padding: 1.5rem 0;
-  border: 1px solid #24759A;
+  border: 1px solid #0F4C81;
   background-color: #FFF;
   position: relative;
   width: 130px;
@@ -1541,7 +1541,7 @@ fee
   padding: 1.6rem 0;
   font-weight: bold;
   vertical-align: top;
-  background-color: #24759A;
+  background-color: #0F4C81;
   color: #FFF;
   text-align: center;
 }
@@ -1590,7 +1590,7 @@ comparison
 --------------------------------*/
 
 .comparison {
-  background-color: #F4FAFF;
+  background-color: #C8DEF2;
   margin-top: 8.4rem;
   padding: 0 0 8rem 4vw;
 
@@ -1600,7 +1600,6 @@ comparison
   width: 1092px;
   margin: auto;
   margin-top: 4rem;
-  border: 1px solid #EEEEEE;
 }
 
 .comparison__wrap {
@@ -1653,7 +1652,7 @@ comparison
   font-family: 'Noto Sans JP', sans-serif;
   display: flex;
   flex-wrap: wrap;
-  color: #24759A;
+  color: #0F4C81;
   margin: 1.4rem auto 0;
   justify-content: center;
 }
@@ -1666,7 +1665,7 @@ comparison
 .step__item {
   font-size: 1.2rem;
   padding: .4rem .8rem;
-  border: 1px solid #24759A;
+  border: 1px solid #0F4C81;
   margin: .4rem;
 }
 
@@ -1731,7 +1730,7 @@ comparison
   font-size: 2rem;
   padding: 2.6rem 0;
   vertical-align: middle;
-  background-color: #24759A;
+  background-color: #0F4C81;
   color: #FFF;
   text-align: center;
 }
@@ -1783,6 +1782,7 @@ flow
 
 .flow {
   padding: 0 4vw;
+  margin-bottom: 8rem;  
 }
 
 .flow__list {
@@ -1822,7 +1822,7 @@ flow
 }
 
 .flow__step {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 .flow__step {
@@ -1845,7 +1845,7 @@ flow
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #24759A;
+  background-color: #0F4C81;
   position: absolute;
   top: 13px;
   right: -37px;
@@ -1855,7 +1855,7 @@ flow
   content: "";
   display: block;
   height: 96%;
-  border-left: dotted 1px #24759A;
+  border-left: dotted 1px #0F4C81;
   position: absolute;
   top: 40px;
   left: 63px;
@@ -1867,7 +1867,7 @@ faq
 --------------------------------*/
 
 .faq {
-  background-color: #F4FAFF;
+  background-color: #C8DEF2;
   /* margin-top: 8rem; */
   padding: 0 4vw 8rem;
 }
@@ -1937,7 +1937,7 @@ faq
 
 .faq__q {
   font-size: 2rem;
-  color: #24759A;
+  color: #0F4C81;
   margin-right: 1.3rem;
 }
 
@@ -1949,12 +1949,12 @@ faq
 }
 
 .faq__desc a {
-  border-bottom: 1px solid #24759A;
+  border-bottom: 1px solid #0F4C81;
   transition: .3s;
 }
 
 .faq__desc a:hover {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 
@@ -1991,7 +1991,7 @@ form
   width: 48px;
   height: 1px;
   border-radius: 2px;
-  background-color: #24759A;
+  background-color: #0F4C81;
 }
 
 .formTel__link {
@@ -2111,7 +2111,7 @@ div.wpcf7 textarea[name="your-message"] {
 .btn_contact7 input {
   width: 320px;
   margin: auto;
-  background-color: #24759A;
+  background-color: #0F4C81;
   color: #FFF;
   font-size: 1.6rem;
   font-weight: bold;
@@ -2123,7 +2123,7 @@ div.wpcf7 textarea[name="your-message"] {
 .btn_contact7 button {
   width: 320px;
   margin: auto;
-  background-color: #24759A;
+  background-color: #0F4C81;
   color: #FFF;
   font-size: 1.6rem;
   font-weight: bold;
@@ -2155,8 +2155,8 @@ div.wpcf7 textarea[name="your-message"] {
 }
 
 .personal-information a {
-  color: #24759A;
-  border-bottom: 1px solid #24759A;
+  color: #0F4C81;
+  border-bottom: 1px solid #0F4C81;
 }
 
 input::placeholder,
@@ -2195,7 +2195,7 @@ footer
 }
 
 .footer__item:hover {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 .footer__item:not(:last-child) {
@@ -2224,7 +2224,7 @@ footer
 }
 
 .footer__policyText:hover {
-  color: #24759A;
+  color: #0F4C81;
 }
 
 .footer__policyText {
@@ -2278,7 +2278,7 @@ small.css
   .hamburgerBtn {
     position: relative;
     display: inline-block;
-    background-color: #24759A;
+    background-color: #0F4C81;
     width: 56px;
     height: 56px;
     z-index: 999;
@@ -2358,7 +2358,7 @@ small.css
   .hamburger__item span {
     font-family: 'Crimson Pro', serif;
     font-size: 1.4rem;
-    color: #24759A;
+    color: #0F4C81;
     display: block;
     margin-bottom: .5rem;
   }
@@ -2560,7 +2560,7 @@ lead
   }
 
   .lead__ttl2:after {
-    border-top: 53px solid #F4FAFF;
+    border-top: 53px solid #C8DEF2;
   }
 
   .recommend__txt {
@@ -2722,7 +2722,7 @@ contact
 --------------------------------*/
 
   .contact {
-    margin-top: 6.4rem;
+    /* margin-top: 6.4rem; */
   }
 
   .contact__txt {
@@ -2944,4 +2944,61 @@ footer
 .gototop {
   margin-top: 10px;
   color: blue;
+}
+
+/* モーダルのスタイル */
+.modal {
+  display: none; /* 最初は非表示 */
+  position: fixed; /* フィックスドポジション */
+  z-index: 4; /* レイヤーの順序 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7); /* 透過度のある黒背景 */
+}
+
+/* モーダルの中身のスタイル */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* 閉じるボタンのスタイル */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 画像のスタイル */
+.modal-content img {
+  max-width: 100%;
+  /* height: auto; */
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-content-image-wrapper {
+  height: 80vh;
+  overflow: scroll;
+}
+
+/* モーダルが表示されているときの背景固定用クラス */
+.modal-open {
+  overflow: hidden;
 }
