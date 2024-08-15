@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/*
- Theme Name:   DAIICHISEIMITSU THEME
- Theme URI:
- Description:  DAIICHISEIMITSU THEME
- Author:
- Author URI:
- Version:      1.0.0
-*/
-
-/* WordPress Styles */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
