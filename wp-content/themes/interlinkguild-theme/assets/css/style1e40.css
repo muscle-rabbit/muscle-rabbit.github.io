@@ -1627,7 +1627,7 @@ body.-scrolled #top #header .headerBarInner {
 }
 @media screen and (max-width: 768px) {
   #header .spBtn {
-    position: absolute;
+    position: fixed;
     right: 24px;
     top: 35px;
     z-index: 101;
