@@ -3774,9 +3774,11 @@ mark {
 }
 
 .gmenu-pc li {
-  width: 110px;
+  display: contents;
 }
-
+.gmenu-pc > li > a {
+  margin-left: 30px;
+}
 .gmenu-pc .linkText {
   display: flex;
   flex-direction: column;
